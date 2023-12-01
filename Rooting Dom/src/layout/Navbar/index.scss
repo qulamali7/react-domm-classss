@@ -1,0 +1,14 @@
+.navbar{
+    background-color: khaki;
+    display: grid;
+    place-items: center;
+    ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        li{
+            color:  black;
+        }
+    }
+}

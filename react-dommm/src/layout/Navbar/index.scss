@@ -1,0 +1,23 @@
+.navbar {
+  background-color: khaki;
+  display: grid;
+  place-items: center;
+  min-height: 10vh;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    li {
+      list-style-type: none;
+      a {
+        font-size: 30px;
+        color: black;
+      }
+      .active {
+        color: #2D9596;
+        font-weight: 700;
+      }
+    }
+  }
+}
